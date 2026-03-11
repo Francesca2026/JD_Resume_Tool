@@ -7,7 +7,6 @@ sys.stdin.reconfigure(encoding='utf-8')
 import streamlit as st
 import requests
 import json
-from dotenv import load_dotenv
 import os
 
 # 从Streamlit Secrets读取API密钥（加密存储，安全无泄露）
